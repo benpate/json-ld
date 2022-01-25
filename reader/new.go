@@ -3,14 +3,29 @@ package reader
 func New(value interface{}) JSONLD {
 
 	switch value := value.(type) {
+
+	case JSONLD:
+		return value
+
 	case string:
-		return String(value)
+
+		if value != "" {
+			return String(value)
+		}
+
 	case map[string]interface{}:
-		return Map(value)
+
+		if len(value) > 0 {
+			return Map(value)
+		}
 
 	case []interface{}:
-		return Slice(value)
+
+		if len(value) > 0 {
+			return Slice(value)
+		}
 	}
 
-	return nil
+	// All other cases return zero value
+	return Zero{}
 }
