@@ -24,8 +24,8 @@ Here's an Example:
 ```
 
 ```go
-object.Property("actor").AsString("id") // returns "https://sally.example.org"
-object.Property("actor").AsObject("id") // returns the object {"id":"https://sally.example.org"}
+object.Property("actor").AsString("id") // returns => "https://sally.example.org"
+object.Property("actor").AsObject("id") // returns => {"id":"https://sally.example.org"}
 ```
 
 ## But Why?
