@@ -15,11 +15,11 @@ JSON-LD is a very flexible format that does not fit well into Go's strict type s
 Here's an Example:
 ```json
 {
-	"@context": "https://www.w3.org/ns/activitystreams",
-	"summary": "Sally offered the Foo object",
-	"type": "Offer",
-	"actor": "https://sally.example.org",
-	"object": "http://example.org/foo"
+    "@context": "https://www.w3.org/ns/activitystreams",
+    "summary": "Sally offered the Foo object",
+    "type": "Offer",
+    "actor": "https://sally.example.org",
+    "object": "http://example.org/foo"
 }
 ```
 
