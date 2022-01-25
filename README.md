@@ -2,7 +2,7 @@
 
 ## Simple JSON-LD in Go
 
-This is an experimental package for working with JSON-LD data in Go.  
+This is an experimental package for working with JSON-LD data in Go.  Please do not use this software until it is complete.
 
 ## But Why?
 
