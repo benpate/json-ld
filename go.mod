@@ -3,7 +3,7 @@ module github.com/whisperverse/json-ld
 go 1.18
 
 require (
-	github.com/benpate/convert v0.13.2
+	github.com/benpate/convert v0.13.3
 	github.com/stretchr/testify v1.7.2
 )
 
