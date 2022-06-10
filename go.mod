@@ -9,7 +9,7 @@ require (
 
 require (
 	github.com/benpate/derp v0.22.2 // indirect
-	github.com/benpate/null v0.6.3 // indirect
+	github.com/benpate/null v0.6.4 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
