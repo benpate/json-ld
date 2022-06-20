@@ -3,7 +3,7 @@ package reader
 import (
 	"time"
 
-	"github.com/benpate/convert"
+	"github.com/benpate/rosetta/convert"
 )
 
 type String string
