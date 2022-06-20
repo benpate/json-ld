@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/benpate/convert v0.13.5
-	github.com/stretchr/testify v1.7.2
+	github.com/stretchr/testify v1.7.3
 )
 
 require (
