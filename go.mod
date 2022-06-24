@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/benpate/rosetta v0.3.0
-	github.com/stretchr/testify v1.7.4
+	github.com/stretchr/testify v1.7.5
 )
 
 require (
