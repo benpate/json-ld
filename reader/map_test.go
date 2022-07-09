@@ -25,7 +25,7 @@ func TestID(t *testing.T) {
 		"id": "http://example.org/foo",
 		"links": [{
 			"type":"Link",
-			"href":"https://whisperverse.org"
+			"href":"https://emissary.dev"
 		}, {
 			"type":"Link",
 			"href":"https://test.com"
@@ -40,8 +40,8 @@ func TestID(t *testing.T) {
 	require.Equal(t, 2, object.Property("links").Len())
 	require.Equal(t, "Link", object.Property("links").Head().Property("type").AsString(""))
 	require.Equal(t, 1, object.Property("links").Tail().Len())
-	require.Equal(t, Map{"type": "Link", "href": "https://whisperverse.org"}, object.Property("links").Head().AsObject("href"))
-	require.Equal(t, []string{"https://whisperverse.org", "https://test.com"}, object.Property("links").AsSliceOfString("href"))
+	require.Equal(t, Map{"type": "Link", "href": "https://emissary.dev"}, object.Property("links").Head().AsObject("href"))
+	require.Equal(t, []string{"https://emissary.dev", "https://test.com"}, object.Property("links").AsSliceOfString("href"))
 	require.Equal(t, Map{"type": "Link", "href": "https://test.com"}, object.Property("links").AsSliceOfObject("href")[1])
 }
 

@@ -1,4 +1,4 @@
-module github.com/whisperverse/json-ld
+module github.com/benpate/json-ld
 
 go 1.18
 
