@@ -3,7 +3,7 @@ module github.com/benpate/json-ld
 go 1.18
 
 require (
-	github.com/benpate/rosetta v0.11.1
+	github.com/benpate/rosetta v0.11.2
 	github.com/stretchr/testify v1.8.1
 )
 
